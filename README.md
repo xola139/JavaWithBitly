@@ -5,6 +5,6 @@ Simple proyecto para acortar una url con Java utilizando el servicio de Bitbly, 
 
 ```Java
 String urlLong="http://www.oracle.com/technetwork/es/java/javase/downloads/jdk7-downloads-1880260.html";
-Url url = as("o_282u8mub6u", "R_33c226de39e7c87437a6e0a3079ccf51").call(shorten(urlLong));
+Url url = as("usuariox", "SuApikey").call(shorten(urlLong));
 System.out.println(url.getShortUrl());
 ```		
